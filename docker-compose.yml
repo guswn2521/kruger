@@ -18,8 +18,8 @@ services:
     expose:
       - 3000
     volumes:
-      - './frontend:/frontend'
-      - '/frontend/node_modules'
+      - './front:/front'
+      - '/front/node_modules'
 
   server:
     build:
