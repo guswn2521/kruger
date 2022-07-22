@@ -6,7 +6,7 @@ class KakaoService {
     // 회원가입
     static async addUser(userInfo) {
         const user = await User.create(userInfo);
-        console.log('github user sign in.');
+        console.log('kakao user sign in.');
         return user;
     }
 

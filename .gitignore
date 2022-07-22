@@ -6,3 +6,4 @@ ecosystem.config.js
 **/.env.production
 front/build/
 back/dist/
+data
